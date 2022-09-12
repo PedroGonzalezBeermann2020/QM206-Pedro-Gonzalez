@@ -1,0 +1,13 @@
+!   File created by the GAMESS Input Deck Generator Plugin for Avogadro
+ $BASIS GBASIS=N31 NGAUSS=6 NDFUNC=1 NPFUNC=1 $END
+ $CONTRL   SCFTYP=ROHF RUNTYP=ENERGY DFTTYP=B3LYP ICHARG=1 MULT=2  $END
+ $SYSTEM MWORDS=50 $END
+ $SCF DIRSCF =.T. $END
+ $DATA 
+Title
+C1
+C     6.0    -1.70798     1.46784    -0.01016
+O     8.0    -2.11446     2.49795     0.50044
+H     1.0    -2.17283     0.51987     0.23730
+H     1.0    -0.88165     1.49976    -0.71167
+ $END
